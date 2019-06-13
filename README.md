@@ -10,6 +10,11 @@
 ##First we need data
 1. https://www.kaggle.com/grasslover/spotify-music-genre-list/downloads/spotify-music-genre-list.zip/6
 2. Talk about kaggle here
+3. Open tsv fie and save as a csv
+
+##Review Data for process
+I like to use jupyter notebook and python to review my data however you dont have to do it this way. In this tutorial I have a jupyter notebook to clean my data. In a prodution setting you want to automate the cleaning and processing of your data. In other projects I have used data access layers with C# to grab just the data I want and process out special characters and other data attributes that can 
+cause issues downstream.
 
 ##Import data to AML Visual Interface
 1. Select new
