@@ -2,6 +2,11 @@
 
 
 ## Create Resource in Azure
+1. Go to portal.azure.com and login or create an account
+2. Click create resource </br>![createres][create-resource]
+3. Select "AI + Machine Learning" then "Machine Learning service workspace" </br> ![selectworkspace][select-workspace]
+4. Fill in requried fields and select "Review + Create" then select "Create"
+5. It will take a few minutes to create the resources needed for your workspace. Below is a list of all the resources that are created:
 
 ## Launch AML Visual Interface
 
@@ -38,3 +43,9 @@ cause issues downstream.
 ## Building the model
 1. Once you have the data on the workspace right click and select visualize to review your data
 2. 
+
+
+
+
+[create-resource]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/createresource.png "Create Resource"
+[select-workspace]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/selectworkspace.PNG "Select Workspace"
