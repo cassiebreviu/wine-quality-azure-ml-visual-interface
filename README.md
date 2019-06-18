@@ -1,4 +1,4 @@
-# IntroToAzureMLInterface
+# Intro To Azure ML Visual Interface
 
 
 ## Create Resource in Azure
