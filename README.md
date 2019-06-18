@@ -2,7 +2,7 @@
 
 
 ## Create Resource in Azure
-1. Go to [Azure Portal][https://azure.portal.com/] and login or [Create an Account][https://azure.microsoft.com/en-us/free/]
+1. Go to [Azure Portal](https://azure.portal.com/) and login or [Create an Account](https://azure.microsoft.com/en-us/free/)
 2. Click "Create resource" </br>![createres][create-resource]
 3. Select "AI + Machine Learning" then "Machine Learning service workspace" </br> ![selectworkspace][select-workspace]
 4. Fill in requried fields and select "Review + Create" then select "Create"
@@ -16,10 +16,12 @@
 4. Then click "Launch visual interface"
 5. This will open a new tab for the Visual interface for Azure Machine Learning Service
 
-## First we need data
-1. https://www.kaggle.com/grasslover/spotify-music-genre-list/downloads/spotify-music-genre-list.zip/6
-2. Talk about kaggle here
-3. Open tsv fie and save as a csv
+## First we need data!
+1. I used a dataset I found on Kaggle. Kaggle is an online community of data scientists and machine learners. 
+2. Download the dataset from this repo or Kaggle
+* [Wine Dataset from Repo](https://github.com/cassieview/IntroToAzureMLInterface/.csv)
+* [Wine Dataset from Kaggle](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009) 
+</br> _Relevant publication: P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009._
 
 ## Import data to AML Visual Interface
 1. Select new
