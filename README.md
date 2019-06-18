@@ -24,12 +24,12 @@
 </br> _Relevant publication: P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009._
 
 ## Getting data into AML VI
-There are a few different ways to import your data into VI. You can use the (Import Data Module)[https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/import-data] to import data from Azure Blob Storage or a Web URL via HTTP. In this tutorial we are going to upload our data into the "My Datasets" in AML VI.
-1. Select new
-2. Select DataSets
-3. Select Add
-4. Select Upload from file
-5. Navigate to downloaded Song data and select it to be uploaded
+There are a few different ways to import data into VI. You can use the (Import Data Module)[https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/import-data] to import data from Azure Blob Storage or a Web URL via HTTP. In this tutorial we are going to upload our data into the "My Datasets" in AML VI.
+1. Select "New" from the bottom left corner of the browser
+2. From the left nav bar Select "DataSets"
+3. Select "Upload from Local file"
+4. Navigate to downloaded Song data and select it to be uploaded
+5. Update the name and add a description (its helpful to have detailed description once there are lots of datasets uploaded)
 
 ## Create New Expirment
 1. Select "New" from the bottom left corner of the browser
