@@ -7,10 +7,14 @@
 3. Select "AI + Machine Learning" then "Machine Learning service workspace" </br> ![selectworkspace][select-workspace]
 4. Fill in requried fields and select "Review + Create" then select "Create"
 5. It will take a few minutes to create the resources needed for your workspace. Below is a list of all the resources that are created:
+</br> ![resourceslist][resourceslist]
 
 ## Launch AML Visual Interface
-
-
+1. Navigate to your resource group that you created the workspace under
+2. Click the Machine Learning Service Workspace resource listed in the resource group
+3. In the left nav click on "Visual Interface"
+4. Then click "Launch visual interface"
+5. This will open a new tab for the Visual interface for Azure Machine Learning Service
 
 ## First we need data
 1. https://www.kaggle.com/grasslover/spotify-music-genre-list/downloads/spotify-music-genre-list.zip/6
@@ -18,8 +22,7 @@
 3. Open tsv fie and save as a csv
 
 ## Review Data for process
-I like to use jupyter notebook and python to review my data however you dont have to do it this way. In this tutorial I have a jupyter notebook to clean my data. In a prodution setting you want to automate the cleaning and processing of your data. In other projects I have used data access layers with C# to grab just the data I want and process out special characters and other data attributes that can 
-cause issues downstream.
+I like to use jupyter notebook and python to review my data however you dont have to do it this way. In this tutorial I have a jupyter notebook to clean my data. In a prodution setting you want to automate the cleaning and processing of your data. In other projects I have used data access layers with C# to grab just the data I want and process out special characters and other data attributes that can cause issues downstream.
 
 ## Import data to AML Visual Interface
 1. Select new
@@ -49,3 +52,4 @@ cause issues downstream.
 
 [create-resource]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/createresource.png "Create Resource"
 [select-workspace]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/selectworkspace.PNG "Select Workspace"
+[resourceslist]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/workspaceresourcelist.PNG
