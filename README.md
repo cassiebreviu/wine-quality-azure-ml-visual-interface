@@ -31,12 +31,16 @@ There are a few different ways to import data into VI. You can use the [Import D
 1. Select "New" from the bottom left corner of the browser
 2. From the left nav bar Select "Datasets"
 3. Select "Upload from Local file"
+</br>![newdatasetupload][newdatasetupload]
 4. Navigate to downloaded data and select it to be uploaded
 5. Update the name and add a description (its helpful to have detailed description once there are lots of datasets uploaded)
+</br>![datasetuploadfields][datasetuploadfields]
 
 ## Create New Experiment
 1. Select "New" from the bottom left corner of the browser
 2. Select "Blank Experiment"
+3. In the top left hand of the workspace select the experiment name text "Expirment created on xx/xx/xxxx" and edit the name of your expirnment.
+</br> ![renameexp][renameexp]
 4. Go to My Datasets to find the data uploaded OR use the import module to import from the github csv link
 5. Drag data onto workspace
 
@@ -45,6 +49,7 @@ There are a few different ways to import data into VI. You can use the [Import D
 2. Select "Create new" to create a new compute target
 3. Enter a name for the new compute target
 4. Select "Run
+</br>![runexperiment][runexperiment]
 
 ## Building the model
 1. Once you have the data on the workspace right click and select visualize to review your data
@@ -60,3 +65,7 @@ There are a few different ways to import data into VI. You can use the [Import D
 [viportal]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/viportal.PNG
 [navvisualinterface]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/navvisualinterface.PNG
 [launchvisualinterface]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/launchvisualinterface.PNG
+[runexperiment]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/runexperiment.PNG
+[datasetuploadfields]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/datasetuploadfields.PNG
+[newdatasetupload]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/newdatasetupload.PNG
+[renameexp]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/renameexp.gif
