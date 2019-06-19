@@ -21,23 +21,23 @@
 
 ## We need data!
 1. I used a dataset I found on Kaggle. Kaggle is an online community of data scientists and machine learners. 
-2. Download the dataset from this repo or Kaggle
+2. Download the dataset from this repo because I have added an additional field (quality bool) to the dataset.
 * [Wine Dataset from Repo](https://github.com/cassieview/IntroToAzureMLInterface/.csv)
-* [Wine Dataset from Kaggle](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009) 
+* [Kaggle Dataset](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009) 
 </br> _Relevant publication: P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009._
 
 ## Getting data into AML VI
 There are a few different ways to import data into VI. You can use the [Import Data Module](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/import-data) to import data from Azure Blob Storage or a Web URL via HTTP. In this tutorial we are going to upload our data into the "My Datasets" in AML VI.
 1. Select "New" from the bottom left corner of the browser
-2. From the left nav bar Select "DataSets"
+2. From the left nav bar Select "Datasets"
 3. Select "Upload from Local file"
-4. Navigate to downloaded Song data and select it to be uploaded
+4. Navigate to downloaded data and select it to be uploaded
 5. Update the name and add a description (its helpful to have detailed description once there are lots of datasets uploaded)
 
-## Create New Expirment
+## Create New Experiment
 1. Select "New" from the bottom left corner of the browser
 2. Select "Blank Experiment"
-4. Go to My Datasets to find the song data uploaded
+4. Go to My Datasets to find the data uploaded
 5. Drag data onto workspace
 6. Add convert to CSV module
 7. Run Expirment
