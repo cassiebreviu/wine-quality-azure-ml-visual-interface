@@ -40,9 +40,9 @@ There are a few different ways to import data into VI. You can use the [Import D
 1. Select "New" from the bottom left corner of the browser
 2. Select "Blank Experiment"
 3. In the top left hand of the workspace select the experiment name text "Expirment created on xx/xx/xxxx" and edit the name of your expirnment.
-</br> ![createexpadddata][createexpadddata]
 4. Go to My Datasets to find the data uploaded OR use the import module to import from the github csv link
 5. Drag data onto workspace
+</br> ![createexpadddata][createexpadddata]
 
 ## The First Run of the Experiment
 1. Select "Run" from the button of the workspace
