@@ -40,7 +40,7 @@ There are a few different ways to import data into VI. You can use the [Import D
 1. Select "New" from the bottom left corner of the browser
 2. Select "Blank Experiment"
 3. In the top left hand of the workspace select the experiment name text "Expirment created on xx/xx/xxxx" and edit the name of your expirnment.
-</br> ![renameexp][renameexp]
+</br> ![createexpadddata][createexpadddata]
 4. Go to My Datasets to find the data uploaded OR use the import module to import from the github csv link
 5. Drag data onto workspace
 
@@ -68,4 +68,4 @@ There are a few different ways to import data into VI. You can use the [Import D
 [runexperiment]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/runexperiment.PNG
 [datasetuploadfields]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/datasetuploadfields.PNG
 [newdatasetupload]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/newdatasetupload.png
-[renameexp]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/renameexp.gif
+[createexpadddata]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/createexpadddata.gif
