@@ -7,14 +7,17 @@
 3. Select "AI + Machine Learning" then "Machine Learning service workspace" </br> ![selectworkspace][select-workspace]
 4. Fill in requried fields and select "Review + Create" then select "Create"
 5. It will take a few minutes to create the resources needed for your workspace. Below is a list of all the resources that are created:
-</br> ![resourceslist][resourceslist]
+</br> ![workspaceresourcelist][workspaceresourcelist]
 
 ## Launch AML VI
 1. Navigate to your resource group that you created the workspace under
 2. Click the "Machine Learning Service Workspace" resource listed in the resource group
 3. In the left nav click on "Visual Interface"
+</br> ![navvisualinterface][navvisualinterface]
 4. Then click "Launch visual interface"
+</br> ![launchvisualinterface][launchvisualinterface]
 5. This will open a new tab for the Visual interface for Azure Machine Learning Service
+</br> ![viportal][viportal]
 
 ## We need data!
 1. I used a dataset I found on Kaggle. Kaggle is an online community of data scientists and machine learners. 
@@ -24,7 +27,7 @@
 </br> _Relevant publication: P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009._
 
 ## Getting data into AML VI
-There are a few different ways to import data into VI. You can use the (Import Data Module)[https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/import-data] to import data from Azure Blob Storage or a Web URL via HTTP. In this tutorial we are going to upload our data into the "My Datasets" in AML VI.
+There are a few different ways to import data into VI. You can use the [Import Data Module](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/import-data) to import data from Azure Blob Storage or a Web URL via HTTP. In this tutorial we are going to upload our data into the "My Datasets" in AML VI.
 1. Select "New" from the bottom left corner of the browser
 2. From the left nav bar Select "DataSets"
 3. Select "Upload from Local file"
@@ -52,4 +55,8 @@ There are a few different ways to import data into VI. You can use the (Import D
 
 [create-resource]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/createresource.png "Create Resource"
 [select-workspace]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/selectworkspace.PNG "Select Workspace"
-[resourceslist]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/workspaceresourcelist.PNG
+[workspaceresourcelist]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/workspaceresourcelist.PNG
+
+[viportal]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/viportal.PNG
+[navvisualinterface]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/navvisualinterface.PNG
+[launchvisualinterface]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/launchvisualinterface.PNG
