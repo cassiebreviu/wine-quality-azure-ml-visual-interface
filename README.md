@@ -22,7 +22,7 @@
 ## We need data!
 1. I used a dataset I found on Kaggle. Kaggle is an online community of data scientists and machine learners. 
 2. Download the dataset from this repo because I have added an additional field (quality bool) to the dataset.
-* [Wine Dataset from Repo](https://github.com/cassieview/IntroToAzureMLInterface/.csv)
+* [Wine Dataset from Repo](https://github.com/cassieview/IntroToAzureMLInterface/blob/master/dataset/winequality-red.csv)
 * [Kaggle Dataset](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009) 
 </br> _Relevant publication: P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009._
 
@@ -37,14 +37,14 @@ There are a few different ways to import data into VI. You can use the [Import D
 ## Create New Experiment
 1. Select "New" from the bottom left corner of the browser
 2. Select "Blank Experiment"
-4. Go to My Datasets to find the data uploaded
+4. Go to My Datasets to find the data uploaded OR use the import module to import from the github csv link
 5. Drag data onto workspace
-6. Add convert to CSV module
-7. Run Expirment
 
-
-## The first expirnemtn run and creating the compute resource
-1. TODO Steps
+## The First Run of the Experiment
+1. Select "Run" from the button of the workspace
+2. Select "Create new" to create a new compute target
+3. Enter a name for the new compute target
+4. Select "Run
 
 ## Building the model
 1. Once you have the data on the workspace right click and select visualize to review your data
