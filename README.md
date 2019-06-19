@@ -44,17 +44,34 @@ There are a few different ways to import data into VI. You can use the [Import D
 5. Drag data onto workspace
 </br> ![createexpadddata][createexpadddata]
 
+## Assign Label column and Visualize data
+We now have created an experiment and have imported the data. We are going to use all the data in the spreadsheet   
+1. Assign the Label data column by adding a "Edit Metadata" module
+2. 
+
 ## The First Run of the Experiment
 1. Select "Run" from the button of the workspace
 2. Select "Create new" to create a new compute target
 3. Enter a name for the new compute target
-4. Select "Run
+4. Select "Run"
 </br>![runexperiment][runexperiment]
 
-## Building the model
-1. Once you have the data on the workspace right click and select visualize to review your data
-2. 
 
+# Deploy the Web Service
+1.
+
+## Things to look out for
+## we have 100% accuracy which doesnt mean its awesome.. it could just mean its overfitted
+1. Overfitting a model means you dont have enough data for it to actual "learn" so it will do great on your data but as soon as it put out into the real world. It will fail. This is why you want to always test with unseen data. Lets grab some data from another source to see if we actually have a realy good model or if its overfitted.
+2. If data is very imbalanced meaning you have lots of one label and little of another - this can also create overfitting and models that look like they are performing really well when they are actually not good models. There are different techniques to work with imbalanced data.
+* sampling
+* SMOTE
+* WHATELSE??
+
+## Terms
+
+Feature:
+Label:
 
 
 
