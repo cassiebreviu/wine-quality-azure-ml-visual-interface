@@ -108,6 +108,8 @@ Once the model has an acceptable or "good enough" accuracy its time to deploy yo
 2. Click the web service that was created
 3. Here you can test and get the information needed to consume the API created.
 
+### You have now created a machine learning model using Azure Machine Learning Visual Interface! 🎉✨
+
 ## Helpful Machine Learning Concepts and Best Practices
 
 ### What features are needed to train the model
