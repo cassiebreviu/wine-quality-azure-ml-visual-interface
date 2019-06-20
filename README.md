@@ -75,7 +75,11 @@ When you train the model the standard practice is to split your data to train an
 
 ### Train, Score and Evaluate the Model
 Now we have prepared our data by select features, assigning labels, cleaning and preprocessing. Its time to train the model.
-1.
+
+1. There are many different aglorthms to choose from when building a model. Many professional data scientists try a few different ones to see which provides a better accuracy score. [Here is a cheatsheet for choosing an algorithm](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet). For this model we are going to use a `Two-Class Logistic Regression`.
+2. Add the following modules to the workspace: `Two-Class Logistic Regression`, `Train Model`, `Score Model`, `Evaluate Model`
+3. Connect them together as displayed below
+4. Run the Experiment
 
 ### Deploy the Web Service
 1.
