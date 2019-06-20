@@ -102,6 +102,12 @@ Once the model has an acceptable or "good enough" accuracy its time to deploy yo
 7. Once you have created the compute target, click refresh in the corner of the pane to show the newly created compute target
 8. Select the Compute target and click "Deploy"
 
+### Test the Web Service
+
+1. Select the "Web Service" icon on the left nav of the workspace. The web service that was created will be listed.
+2. Click the web service that was created
+3. Here you can test and get the information needed to consume the API created.
+
 ## Helpful Machine Learning Concepts and Best Practices
 
 ### What features are needed to train the model
