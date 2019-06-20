@@ -50,7 +50,7 @@ We now have created an experiment and have imported the data. Lets build the mod
 1. Under Data Transformation > Manipulation drag and drop the "Edit Metadata" module onto the workspace
 2. Connect the modules together be clicking and dragging on the circles like a visio diagram.
 3. Click on the "Edit Metadata" and select "Edit Columns" from the right hand side of the workspace
-4. Leave the default configuration and type "qualityBool" into the textbox and click "Ok"
+4. Leave the default configuration and type `qualityBool` into the textbox and click "Ok"
 
 ### The First Run of the Experiment
 1. Select "Run" from the button of the workspace
@@ -59,9 +59,21 @@ We now have created an experiment and have imported the data. Lets build the mod
 4. Select "Run"
 </br>![runexperiment][runexperiment]
 
-### Build the rest of the model
-1. 
+### Select Feature Columns
+1. Under Data Transformation > Manipulation drag and drop the "Edit Metadata" module onto the workspace
+2. Connect the modules together be clicking and dragging on the circles like a visio diagram.
+3. Click on the "Edit Metadata" and select "Edit Columns" from the right hand side of the workspace
+4. Select all the columns except for `quality` and `qualityBool`
+5. Select the arrow to move the highlighted features into the "Selected Columns" box and click "Ok".
 
+### Split the Data
+When you train the model the standard practice is to split your data to train and score your model. 70% trains the model and 30% scores the model to see how well the training went. Understand that true model accuracy should be tested on unseen data outside of this 30% score.  This score gives you an idea of how the model is performing but is not law and sometimes misleading.
+
+1. In the left nav type "Split Data" in the textbox at the top
+2. Drag and drop the module onto the workspace and connect it to the existing modules
+3. Select the "Split Data" module and change the split from `0.5` to `0.7`
+
+### Train, Score and Evaluate the Model
 
 # Deploy the Web Service
 1.
