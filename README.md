@@ -44,17 +44,23 @@ There are a few different ways to import data into VI. You can use the [Import D
 5. Drag data onto workspace
 </br> ![createexpadddata][createexpadddata]
 
-## Assign Label column and Visualize data
-We now have created an experiment and have imported the data. We are going to use all the data in the spreadsheet   
-1. Assign the Label data column by adding a "Edit Metadata" module
-2. 
+## Build the Model
+### Assign the label attribute to the dataset
+We now have created an experiment and have imported the data. Lets build the model. In the left hand nav there are different modules that you can drag and drop onto the workspace to build the model.
+1. Under Data Transformation > Manipulation drag and drop the "Edit Metadata" module onto the workspace
+2. Connect the modules together be clicking and dragging on the circles like a visio diagram.
+3. Click on the "Edit Metadata" and select "Edit Columns" from the right hand side of the workspace
+4. Leave the default configuration and type "qualityBool" into the textbox and click "Ok"
 
-## The First Run of the Experiment
+### The First Run of the Experiment
 1. Select "Run" from the button of the workspace
 2. Select "Create new" to create a new compute target
 3. Enter a name for the new compute target
 4. Select "Run"
 </br>![runexperiment][runexperiment]
+
+### Build the rest of the model
+1. 
 
 
 # Deploy the Web Service
