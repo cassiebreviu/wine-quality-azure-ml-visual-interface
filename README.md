@@ -97,7 +97,10 @@ Once the model has an acceptable or "good enough" accuracy its time to deploy yo
 2. Click "Run" on the predictive experiment, select the compute and click "Run"
 3. Now the model you created will show up under "Trained Models" in the left nav of the workspace. This allows you to import trained models into different experiments
 4. Click "Deploy Web Service" in the bottom nav of the workspace
-5. 
+5. Now we need to create a web service compute target (if you dont already have one)
+6. Click "Create new" and then click the "Go to azure portal link" think will open a new tab and bring you to the azure machine learning workspace resource with compute selected from the left hand nav. Follow the instructions in the pane to create the compute target for the web service.
+7. Once you have created the compute target, click refresh in the corner of the pane to show the newly created compute target
+8. Select the Compute target and click "Deploy"
 
 ## Helpful Machine Learning Concepts and Best Practices
 
