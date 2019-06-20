@@ -1,5 +1,4 @@
-# Intro To Azure Machine Learning Visual Interface (VI)
-## Analysis of wine attributes to assess quality
+# Is that wine good or bad? A tutorial on how to build a binary classification for red wine quality using Azure Machine Learning Visual Interface (VI)
 
 
 ## Create Resource in Azure
