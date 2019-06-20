@@ -78,6 +78,7 @@ Now we have prepared our data by select features, assigning labels, cleaning and
 
 1. There are many different aglorthms to choose from when building a model. Many professional data scientists try a few different ones to see which provides a better accuracy score. [Here is a cheatsheet for choosing an algorithm](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet). For this model we are going to use a `Two-Class Logistic Regression`.
 2. Add the following modules to the workspace: `Two-Class Logistic Regression`, `Train Model`, `Score Model`, `Evaluate Model`
+</br> _hint: if you have questions about modules or concepts, click on the module and in the lower right corner of the workspace you will see a "more help" link. Click the link to get infomration about how the module works and help with data science terms_
 3. Connect them together as displayed below
 4. Select the `Train Model` module and click "Edit Columns" in the right side of the workspace
 5. Type `qualityBool` into the textbox to indicate the dataset label
@@ -86,10 +87,11 @@ Now we have prepared our data by select features, assigning labels, cleaning and
 ### Check Accuracy of model
 We now have a trained model in Azure Machine Learning Visual Interface. Lets visualize our results to see how it performed.
 
-1. 
+1. Right click on the button circle of the `Evaluate Model` module.
+2. [How to understand metrics for classification models](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/evaluate-model#bkmk_classification)
 
 ### Deploy the Web Service
-1.
+1. 
 
 ## Helpful Machine Learning Concepts and Best Practices
 
