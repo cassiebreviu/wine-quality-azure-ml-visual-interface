@@ -93,8 +93,11 @@ We now have a trained model in Azure Machine Learning Visual Interface. Lets vis
 ### Deploy the Web Service
 Once the model has an acceptable or "good enough" accuracy its time to deploy your model to a web service.
 
-1. Click "Create predictive expirnment" in the bottom nav of the workspace
-2. 
+1. Click "Create predictive experiment" in the bottom nav of the workspace
+2. Click "Run" on the predictive experiment, select the compute and click "Run"
+3. Now the model you created will show up under "Trained Models" in the left nav of the workspace. This allows you to import trained models into different experiments
+4. Click "Deploy Web Service" in the bottom nav of the workspace
+5. 
 
 ## Helpful Machine Learning Concepts and Best Practices
 
