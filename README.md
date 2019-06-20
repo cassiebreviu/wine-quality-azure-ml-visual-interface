@@ -1,7 +1,7 @@
 # Is that wine good or bad? A tutorial on how to build a binary classification for red wine quality using Azure Machine Learning Visual Interface (VI)
 
-
-## Create Resource in Azure
+## Tools and Data
+### Create Resource in Azure
 1. Go to [Azure Portal](https://azure.portal.com/) and login or [Create an Account](https://azure.microsoft.com/en-us/free/)
 2. Click "Create resource" </br>![createres][create-resource]
 3. Select "AI + Machine Learning" then "Machine Learning service workspace" </br> ![selectworkspace][select-workspace]
@@ -9,7 +9,7 @@
 5. It will take a few minutes to create the resources needed for your workspace. Below is a list of all the resources that are created:
 </br> ![workspaceresourcelist][workspaceresourcelist]
 
-## Launch AML VI
+### Launch AML VI
 1. Navigate to your resource group that you created the workspace under
 2. Click the "Machine Learning Service Workspace" resource listed in the resource group
 3. In the left nav click on "Visual Interface"
@@ -19,14 +19,14 @@
 5. This will open a new tab for the Visual interface for Azure Machine Learning Service
 </br> ![viportal][viportal]
 
-## We need data!
+### We need data!
 1. I used a dataset I found on Kaggle. Kaggle is an online community of data scientists and machine learners. 
 2. Download the dataset from this repo because I have added an additional field (quality bool) to the dataset.
 * [Wine Dataset from Repo](https://github.com/cassieview/IntroToAzureMLInterface/blob/master/dataset/winequality-red.csv)
 * [Kaggle Dataset](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009) 
 </br> _Relevant publication: P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009._
 
-## Getting data into AML VI
+### Getting data into AML VI
 There are a few different ways to import data into VI. You can use the [Import Data Module](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/import-data) to import data from Azure Blob Storage or a Web URL via HTTP. In this tutorial we are going to upload our data into the "My Datasets" in AML VI.
 1. Select "New" from the bottom left corner of the browser
 2. From the left nav bar Select "Datasets"
@@ -36,7 +36,7 @@ There are a few different ways to import data into VI. You can use the [Import D
 5. Update the name and add a description (its helpful to have detailed description once there are lots of datasets uploaded)
 </br>![datasetuploadfields][datasetuploadfields]
 
-## Create New Experiment
+### Create New Experiment
 1. Select "New" from the bottom left corner of the browser
 2. Select "Blank Experiment"
 3. In the top left hand of the workspace select the experiment name text "Expirment created on xx/xx/xxxx" and edit the name of your expirnment.
@@ -74,14 +74,18 @@ When you train the model the standard practice is to split your data to train an
 3. Select the "Split Data" module and change the split from `0.5` to `0.7`
 
 ### Train, Score and Evaluate the Model
+Now we have prepared our data by select features, assigning labels, cleaning and preprocessing. Its time to train the model.
+1.
 
 ### Deploy the Web Service
 1.
 
 ## Helpful Machine Learning Concepts and Best Practices
+
+### What features are needed to train the model
 In this example we used all the attributes in the datasets as features. When building a model is it important to think about what features actually help make a decision to train a model. 
 
-## we have 100% accuracy which doesnt mean its awesome.. it could just mean its overfitted
+### we have 100% accuracy which doesnt mean its awesome.. it could just mean its overfitted
 1. Overfitting a model means you dont have enough data for it to actual "learn" so it will do great on your data but as soon as it put out into the real world. It will fail. This is why you want to always test with unseen data. Lets grab some data from another source to see if we actually have a realy good model or if its overfitted.
 2. If data is very imbalanced meaning you have lots of one label and little of another - this can also create overfitting and models that look like they are performing really well when they are actually not good models. There are different techniques to work with imbalanced data.
 * sampling
