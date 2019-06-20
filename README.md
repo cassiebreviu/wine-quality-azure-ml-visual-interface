@@ -91,7 +91,10 @@ We now have a trained model in Azure Machine Learning Visual Interface. Lets vis
 2. [How to understand metrics for classification models](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/evaluate-model#bkmk_classification)
 
 ### Deploy the Web Service
-1. 
+Once the model has an acceptable or "good enough" accuracy its time to deploy your model to a web service.
+
+1. Click "Create predictive expirnment" in the bottom nav of the workspace
+2. 
 
 ## Helpful Machine Learning Concepts and Best Practices
 
@@ -110,6 +113,8 @@ In this example we used all the attributes in the datasets as features. When bui
 Feature:
 Label:
 
+## Helpful Links
+[Machine Learning Visual Interface Overview Doc](https://docs.microsoft.com/en-us/azure/machine-learning/service/ui-concept-visual-interface)
 
 
 [create-resource]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/createresource.png "Create Resource"
