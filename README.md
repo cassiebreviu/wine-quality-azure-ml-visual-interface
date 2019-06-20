@@ -1,4 +1,4 @@
-# Is that wine good or bad? A tutorial on how to build a binary classification for red wine quality using Azure Machine Learning Visual Interface (VI)
+# Is that wine good or bad? A tutorial on how to build a binary classification for red wine quality using Azure Machine Learning Visual Interface
 
 ## Tools and Data
 ### Create Resource in Azure
