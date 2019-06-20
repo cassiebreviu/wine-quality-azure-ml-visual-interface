@@ -81,7 +81,12 @@ Now we have prepared our data by select features, assigning labels, cleaning and
 3. Connect them together as displayed below
 4. Select the `Train Model` module and click "Edit Columns" in the right side of the workspace
 5. Type `qualityBool` into the textbox to indicate the dataset label
-5. Run the Experiment
+6. Run the Experiment
+
+### Check Accuracy of model
+We now have a trained model in Azure Machine Learning Visual Interface. Lets visualize our results to see how it performed.
+
+1. 
 
 ### Deploy the Web Service
 1.
