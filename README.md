@@ -49,6 +49,7 @@ We now have created an experiment and have imported the data. Lets build the mod
 2. Connect the modules together be clicking and dragging on the circles like a visio diagram.
 3. Click on the "Edit Metadata" and select "Edit Columns" from the right hand side of the workspace
 4. Leave the default configuration and type `qualityBool` into the textbox and click "Ok"
+</br>![editmetalabel][editmetalabel]
 
 ### The First Run of the Experiment
 1. Select "Run" from the button of the workspace
@@ -143,3 +144,4 @@ Label:
 [createamlresource]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/createamlresource.gif
 [launchamlvi]:https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/launchamlvi.gif
 [uploaddataset]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/uploaddataset.gif
+[editmetalabel]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/editmetalabel.gif
