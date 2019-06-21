@@ -3,9 +3,10 @@
 ## Tools and Data
 ### Create Resource in Azure
 1. Go to [Azure Portal](https://azure.portal.com/) and login or [Create an Account](https://azure.microsoft.com/en-us/free/)
-2. Click "Create resource" </br>![createres][create-resource]
-3. Select "AI + Machine Learning" then "Machine Learning service workspace" </br> ![selectworkspace][select-workspace]
+2. Click "Create resource"
+3. Select "AI + Machine Learning" then "Machine Learning service workspace"
 4. Fill in requried fields and select "Review + Create" then select "Create"
+ </br> ![createamlresource][createamlresource]
 5. It will take a few minutes to create the resources needed for your workspace. Below is a list of all the resources that are created:
 </br> ![workspaceresourcelist][workspaceresourcelist]
 
@@ -142,3 +143,4 @@ Label:
 [datasetuploadfields]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/datasetuploadfields.PNG
 [newdatasetupload]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/newdatasetupload.png
 [createexpadddata]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/createexpadddata.gif
+[createamlresource]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/createamlresource.gif
