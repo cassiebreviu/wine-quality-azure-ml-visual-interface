@@ -30,10 +30,9 @@ There are a few different ways to import data into VI. You can use the [Import D
 1. Select "New" from the bottom left corner of the browser
 2. From the left nav bar Select "Datasets"
 3. Select "Upload from Local file"
-</br>![newdatasetupload][newdatasetupload]
 4. Navigate to downloaded data and select it to be uploaded
 5. Update the name and add a description (its helpful to have detailed description once there are lots of datasets uploaded)
-</br>![datasetuploadfields][datasetuploadfields]
+</br>![uploaddataset][uploaddataset]
 
 ### Create New Experiment
 1. Select "New" from the bottom left corner of the browser
@@ -143,3 +142,4 @@ Label:
 [createexpadddata]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/createexpadddata.gif
 [createamlresource]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/createamlresource.gif
 [launchamlvi]:https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/launchamlvi.gif
+[uploaddataset]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/uploaddataset.gif
