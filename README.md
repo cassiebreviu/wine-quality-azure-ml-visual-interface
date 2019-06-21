@@ -14,11 +14,9 @@
 1. Navigate to your resource group that you created the workspace under
 2. Click the "Machine Learning Service Workspace" resource listed in the resource group
 3. In the left nav click on "Visual Interface"
-</br> ![navvisualinterface][navvisualinterface]
 4. Then click "Launch visual interface"
-</br> ![launchvisualinterface][launchvisualinterface]
 5. This will open a new tab for the Visual interface for Azure Machine Learning Service
-</br> ![viportal][viportal]
+</br> ![launchamlvi][launchamlvi]
 
 ### We need data!
 1. I used a dataset I found on Kaggle. Kaggle is an online community of data scientists and machine learners. 
@@ -144,3 +142,4 @@ Label:
 [newdatasetupload]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/newdatasetupload.png
 [createexpadddata]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/createexpadddata.gif
 [createamlresource]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/createamlresource.gif
+[launchamlvi]:https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/launchamlvi.gif
