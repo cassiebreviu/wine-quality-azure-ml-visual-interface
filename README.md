@@ -120,8 +120,8 @@ Once the model has an acceptable or "good enough" accuracy its time to deploy yo
 
 ## Helpful Machine Learning Concepts and Best Practices
 
-### What features are needed to train the model
-In this example we used all the attributes in the datasets as features. When building a model is it important to think about what features help make a decision to train a model. 
+### Selecting what features will give the best accuracy
+In this example we used all the attributes in the datasets as features. When building a model is it important to think about what features help make a decision or a good prediction. Data visualizations and talking to subject matter experts can help identify what features are best. Additionally it is an iterative process, meaning playing around and using trial and error of what features are going to get the best accuracy.
 
 ### Is 100% accuracy good? What overfitting is.
 1. Overfitting a model means you dont have enough data for it to actual "learn" so it will do great on your data but as soon as it put out into the real world. It will fail. This is why you want to always test with unseen data. 
