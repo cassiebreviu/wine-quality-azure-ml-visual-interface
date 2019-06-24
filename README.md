@@ -5,7 +5,7 @@
 1. Go to [Azure Portal](https://azure.portal.com/) and login or [Create an Account](https://azure.microsoft.com/en-us/free/)
 2. Click "Create resource"
 3. Select "AI + Machine Learning" then "Machine Learning service workspace"
-4. Fill in requried fields and select "Review + Create" then select "Create"
+4. Fill in required fields and select "Review + Create" then select "Create"
  </br> ![createamlresource][createamlresource]
 5. It will take a few minutes to create the resources needed for your workspace. Below is a list of all the resources that are created:
 </br> ![workspaceresourcelist][workspaceresourcelist]
@@ -37,7 +37,7 @@ There are a few different ways to import data into VI. You can use the [Import D
 ### Create New Experiment
 1. Select "New" from the bottom left corner of the browser
 2. Select "Blank Experiment"
-3. In the top left hand of the workspace select the experiment name text "Expirment created on xx/xx/xxxx" and edit the name of your expirnment.
+3. In the top left hand of the workspace select the experiment name text "Experiment created on xx/xx/xxxx" and edit the name of your experinment.
 4. Go to My Datasets to find the data uploaded OR use the import module to import from the github csv link
 5. Drag data onto workspace
 </br> ![createexpadddata][createexpadddata]
@@ -82,9 +82,9 @@ When you train the model the standard practice is to split your data to train an
 ### Train, Score and Evaluate the Model
 Now we have prepared our data by select features, assigning labels, cleaning and preprocessing. Its time to train the model.
 
-1. There are many different aglorthms to choose from when building a model. Many professional data scientists try a few different ones to see which provides a better accuracy score. [Here is a cheatsheet for choosing an algorithm](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet). For this model we are going to use a `Two-Class Logistic Regression`.
+1. There are many different algorithms to choose from when building a model. Many professional data scientists try a few different ones to see which provides a better accuracy score. [Here is a cheatsheet for choosing an algorithm](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet). For this model we are going to use a `Two-Class Logistic Regression`.
 2. Add the following modules to the workspace: `Two-Class Logistic Regression`, `Train Model`, `Score Model`, `Evaluate Model`
-</br> _hint: if you have questions about modules or concepts, click on the module and in the lower right corner of the workspace you will see a "more help" link. Click the link to get infomration about how the module works and help with data science terms_
+</br> _hint: if you have questions about modules or concepts, click on the module and in the lower right corner of the workspace you will see a "more help" link. Click the link to get information about how the module works and help with data science terms_
 3. Connect them together as displayed below
 4. Select the `Train Model` module and click "Edit Columns" in the right side of the workspace
 5. Type `qualityBool` into the textbox to indicate the dataset label
@@ -121,7 +121,7 @@ Once the model has an acceptable or "good enough" accuracy its time to deploy yo
 ## Helpful Machine Learning Concepts and Best Practices
 
 ### What features are needed to train the model
-In this example we used all the attributes in the datasets as features. When building a model is it important to think about what features actually help make a decision to train a model. 
+In this example we used all the attributes in the datasets as features. When building a model is it important to think about what features help make a decision to train a model. 
 
 ### Is 100% accuracy good? What overfitting is.
 1. Overfitting a model means you dont have enough data for it to actual "learn" so it will do great on your data but as soon as it put out into the real world. It will fail. This is why you want to always test with unseen data. 
