@@ -118,10 +118,11 @@ Once the model has an acceptable or "good enough" accuracy its time to deploy yo
 
 ### You have now created a machine learning model using Azure Machine Learning Visual Interface! 🎉✨
 
-## Helpful Machine Learning Concepts and Best Practices
+## Machine Learning Beginner Gotchas
 
-### Selecting what features will give the best accuracy
-In this example we used all the attributes in the datasets as features. When building a model is it important to think about what features help make a decision or a good prediction. Data visualizations and talking to subject matter experts can help identify what features are best. Additionally it is an iterative process, meaning playing around and using trial and error of what features are going to get the best accuracy.
+### Selecting what features will give the best accuracy (Feature Enginnering)
+* In this example we used all the attributes in the datasets as features. When building a model is it important to think about what features help make a decision or a good prediction. 
+* Data visualizations and talking to subject matter experts can help identify what features are best. Additionally it is an iterative process, meaning playing around and using trial and error of what features are going to get the best accuracy.
 
 ### Is 100% accuracy always good? What overfitting is.
 * Overfitting a model means you dont have enough data for it to actual "learn" so it will do great on your data but as soon as it put out into the real world. It will fail. This is why you want to always test with unseen data. 
@@ -129,6 +130,7 @@ In this example we used all the attributes in the datasets as features. When bui
 
 ## Helpful Links
 [Machine Learning Visual Interface Overview Doc](https://docs.microsoft.com/en-us/azure/machine-learning/service/ui-concept-visual-interface) </br>
+[Flovors of Machine Learning Doc](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-choice#flavors-of-machine-learning) </br>
 [MS Learn Intro to Data Science in Azure](https://docs.microsoft.com/en-us/learn/modules/intro-to-data-science-in-azure/1-introduction) </br>
 [Stanford Machine Learning Cheatsheet](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-supervised-learning)</br>
 
