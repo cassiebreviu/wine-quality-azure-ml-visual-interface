@@ -94,7 +94,8 @@ Now we have prepared our data by select features, assigning labels, cleaning and
 We now have a trained model in Azure Machine Learning Visual Interface. Lets visualize our results to see how it performed.
 
 1. Right click on the button circle of the `Evaluate Model` module.
-2. [How to understand metrics for classification models](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/evaluate-model#bkmk_classification)
+2. Select "Visualize" from the menu that popped up
+3. [How to understand metrics for classification models](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/evaluate-model#bkmk_classification)
 
 ### Deploy the Web Service
 Once the model has an acceptable or "good enough" accuracy its time to deploy your model to a web service.
