@@ -1,6 +1,6 @@
 # Is that wine good or bad? A tutorial on how to build a binary classification for red wine quality using Azure Machine Learning Visual Interface
 
-## Tools and Data
+## Azure Tools and Data
 ### Create Resource in Azure
 1. Go to [Azure Portal](https://azure.portal.com/) and login or [Create an Account](https://azure.microsoft.com/en-us/free/)
 2. Click "Create resource"
