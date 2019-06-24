@@ -1,4 +1,4 @@
-# Is that wine good or bad? A tutorial on how to build a binary classification for red wine quality using Azure Machine Learning Visual Interface
+# Is that wine good or bad? A beginner tutorial on how to build a binary classification machine learning model with no code using Azure Machine Learning Visual Interface
 
 ## Azure Tools and Data
 ### Create Resource in Azure
