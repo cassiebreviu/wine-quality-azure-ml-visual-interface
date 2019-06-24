@@ -90,12 +90,19 @@ Now we have prepared our data by select features, assigning labels, cleaning and
 6. Run the Experiment
 </br>![splittraintestgif][splittraintestgif]
 
-### Check Accuracy of model
+### Check Accuracy of Model
 We now have a trained model in Azure Machine Learning Visual Interface. Lets visualize our results to see how it performed.
 
 1. Right click on the button circle of the `Evaluate Model` module.
 2. Select "Visualize" from the menu that popped up
 3. [How to understand metrics for classification models](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/evaluate-model#bkmk_classification)
+4. Our accuracy is ok... but maybe some of our features are hurting our results? Lets take another look at our data to see if we can remove features that are hurting accuracy.
+
+### Change Features to Improve Accuracy
+1. Right click on the circle for "Select Columns in Dataset"
+2. Click on each column feature and review the visualization on the right side of the workspace
+3. It looks like we can remove X and X and see if returns a better result.
+6. In this case remove features helped our accuracy, in other scenarios adding features may improve accuracy.
 
 ### Deploy the Web Service
 Once the model has an acceptable or "good enough" accuracy its time to deploy your model to a web service.
