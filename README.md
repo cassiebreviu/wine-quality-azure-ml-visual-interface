@@ -64,6 +64,7 @@ We now have created an experiment and have imported the data. Lets build the mod
 3. Click on the "Edit Metadata" and select "Edit Columns" from the right hand side of the workspace
 4. Select all the columns except for `quality` and `qualityBool`
 5. Select the arrow to move the highlighted features into the "Selected Columns" box and click "Ok".
+</br>![editmetaselectcolumns][editmetaselectcolumns]
 
 ### Split the Data
 When you train the model the standard practice is to split your data to train and score your model. 70% trains the model and 30% scores the model to see how well the training went. Understand that true model accuracy should be tested on unseen data outside of this 30% score.  This score gives you an idea of how the model is performing but is not law and sometimes misleading.
@@ -142,3 +143,4 @@ In this example we used all the attributes in the datasets as features. When bui
 [runexp]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/runexp.gif
 [splittraintestvid]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/splittraintestvid.mp4
 [splittraintestgif]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/splittraintestgif.gif
+[editmetaselectcolumns]:https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/editmetaselectcolumns.gif
