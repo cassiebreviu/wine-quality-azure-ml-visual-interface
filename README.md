@@ -10,7 +10,7 @@
 5. It will take a few minutes to create the resources needed for your workspace. Below is a list of all the resources that are created:
 </br> ![workspaceresourcelist][workspaceresourcelist]
 
-### Launch AML VI
+### Launch Azure Machine Learning Visual Interface
 1. Navigate to your resource group that you created the workspace under
 2. Click the "Machine Learning Service Workspace" resource listed in the resource group
 3. In the left nav click on "Visual Interface"
@@ -19,14 +19,14 @@
 </br> ![launchamlvi][launchamlvi]
 
 ### We need data!
-1. I used a dataset I found on Kaggle. Kaggle is an online community of data scientists and machine learners. 
-2. Download the dataset from this repo because I have added an additional field (quality bool) to the dataset.
+1. I used a dataset I found on Kaggle. Kaggle is an online community of data scientists. 
+2. Download the dataset from this repo because I have added an additional field (qualityBool) to the dataset.
 * [Wine Dataset from Repo](https://github.com/cassieview/IntroToAzureMLInterface/blob/master/dataset/winequality-red.csv)
 * [Kaggle Dataset](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009) 
 </br> _Relevant publication: P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009._
 
-### Getting data into AML VI
-There are a few different ways to import data into VI. You can use the [Import Data Module](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/import-data) to import data from Azure Blob Storage or a Web URL via HTTP. In this tutorial we are going to upload our data into the "My Datasets" in AML VI.
+### Getting data into Azure Machine Learning Visual Interface
+There are a few different ways to import data into Visual Interface. You can use the [Import Data Module](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/import-data) to import data from Azure Blob Storage or a Web URL via HTTP. In this tutorial we are going to upload our data into the "My Datasets"
 1. Select "New" from the bottom left corner of the browser
 2. From the left nav bar Select "Datasets"
 3. Select "Upload from Local file"
@@ -38,8 +38,8 @@ There are a few different ways to import data into VI. You can use the [Import D
 1. Select "New" from the bottom left corner of the browser
 2. Select "Blank Experiment"
 3. In the top left hand of the workspace select the experiment name text "Experiment created on xx/xx/xxxx" and edit the name of your experinment.
-4. Go to My Datasets to find the data uploaded OR use the import module to import from the github csv link
-5. Drag data onto workspace
+4. Go to "My Datasets" to find the data uploaded OR use the import module to import from the github csv link
+5. Drag data module onto workspace
 </br> ![createexpadddata][createexpadddata]
 
 ## Build the Model
@@ -60,7 +60,7 @@ We now have created an experiment and have imported the data. Lets build the mod
 
 ### Select Feature Columns
 1. Under Data Transformation > Manipulation drag and drop the "Edit Metadata" module onto the workspace
-2. Connect the modules together be clicking and dragging on the circles like a visio diagram.
+2. Connect the modules together be clicking and dragging on the circles like a Visio diagram.
 3. Click on the "Edit Metadata" and select "Edit Columns" from the right hand side of the workspace
 4. Select all the columns except for `quality` and `qualityBool`
 5. Select the arrow to move the highlighted features into the "Selected Columns" box and click "Ok".
