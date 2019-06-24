@@ -117,17 +117,9 @@ In this example we used all the attributes in the datasets as features. When bui
 ### we have 100% accuracy which doesnt mean its awesome.. it could just mean its overfitted
 1. Overfitting a model means you dont have enough data for it to actual "learn" so it will do great on your data but as soon as it put out into the real world. It will fail. This is why you want to always test with unseen data. Lets grab some data from another source to see if we actually have a realy good model or if its overfitted.
 2. If data is very imbalanced meaning you have lots of one label and little of another - this can also create overfitting and models that look like they are performing really well when they are actually not good models. There are different techniques to work with imbalanced data.
-* sampling
-* SMOTE
-* WHATELSE??
-
-## Terms
-
-Feature:
-Label:
 
 ## Helpful Links
-[Machine Learning Visual Interface Overview Doc](https://docs.microsoft.com/en-us/azure/machine-learning/service/ui-concept-visual-interface)
+[Machine Learning Visual Interface Overview Doc](https://docs.microsoft.com/en-us/azure/machine-learning/service/ui-concept-visual-interface) </br>
 [Stanford Machine Learning Cheatsheet](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-supervised-learning)
 
 
