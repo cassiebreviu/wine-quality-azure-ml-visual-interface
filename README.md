@@ -56,7 +56,7 @@ We now have created an experiment and have imported the data. Lets build the mod
 2. Select "Create new" to create a new compute target
 3. Enter a name for the new compute target
 4. Select "Run"
-</br>![runexperiment][runexperiment]
+</br>![runexp][runexp]
 
 ### Select Feature Columns
 1. Under Data Transformation > Manipulation drag and drop the "Edit Metadata" module onto the workspace
@@ -138,3 +138,4 @@ In this example we used all the attributes in the datasets as features. When bui
 [launchamlvi]:https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/launchamlvi.gif
 [uploaddataset]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/uploaddataset.gif
 [editmetalabel]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/editmetalabel.gif
+[runexp]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/runexp.gif
