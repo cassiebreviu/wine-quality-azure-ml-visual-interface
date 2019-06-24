@@ -2,7 +2,7 @@
 
 ## Azure Tools and Data
 ### Create Resource in Azure
-1. Go to [Azure Portal](https://azure.portal.com/) and login or [Create an Account](https://azure.microsoft.com/en-us/free/)
+1. Go to [Azure Portal](https://portal.azure.com/) and login or [Create an Account](https://azure.microsoft.com/en-us/free/)
 2. Click "Create resource"
 3. Select "AI + Machine Learning" then "Machine Learning service workspace"
 4. Fill in required fields and select "Review + Create" then select "Create"
