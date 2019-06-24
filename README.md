@@ -66,6 +66,12 @@ We now have created an experiment and have imported the data. Lets build the mod
 5. Select the arrow to move the highlighted features into the "Selected Columns" box and click "Ok".
 </br>![editmetaselectcolumns][editmetaselectcolumns]
 
+### Visualize the Data
+Data visualizations are an important part of the data science process.
+1. To visualize the data, right click on the `Edit Metadata` module and select "Visualize"
+2. Select each column to see the data visualized on the right side.
+</br>![editmetaselectcolumns][editmetaselectcolumns]
+
 ### Split the Data
 When you train the model the standard practice is to split your data to train and score your model. 70% trains the model and 30% scores the model to see how well the training went. Understand that true model accuracy should be tested on unseen data outside of this 30% score.  This score gives you an idea of how the model is performing but is not law and sometimes misleading.
 
