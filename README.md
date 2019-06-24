@@ -108,6 +108,7 @@ Once the model has an acceptable or "good enough" accuracy its time to deploy yo
 6. Click "Create new" and then click the "Go to azure portal link" think will open a new tab and bring you to the azure machine learning workspace resource with compute selected from the left hand nav. Follow the instructions in the pane to create the compute target for the web service.
 7. Once you have created the compute target, click refresh in the corner of the pane to show the newly created compute target
 8. Select the Compute target and click "Deploy"
+</br>![createapigif][createapigif]
 
 ### Test the Web Service
 
@@ -151,3 +152,4 @@ In this example we used all the attributes in the datasets as features. When bui
 [splittraintestgif]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/splittraintestgif.gif
 [editmetaselectcolumns]:https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/editmetaselectcolumns.gif
 [editdatavisual]:https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/editdatavisual.gif
+[createapigif]:https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/createapigif.gif
