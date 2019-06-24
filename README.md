@@ -62,9 +62,8 @@ We now have created an experiment and have imported the data. Lets build the mod
 1. Under Data Transformation > Manipulation drag and drop the "Select Columns in dataset" module onto the workspace
 2. Connect the modules together be clicking and dragging on the circles like a Visio diagram.
 3. Click on the "Select Columns in dataset" and select "Edit Columns" from the right hand side of the workspace
-4. Select all the columns _except_ for `quality` and `qualityBool`
-5. Select the arrow to move the highlighted features into the "Selected Columns" box and click "Ok".
-</br>![editmetaselectcolumns][editmetaselectcolumns]
+4. Select exclude column `quality`
+5. Select the arrow to move the highlight feature into the "Selected Columns" box and click "Ok".
 
 ### Visualize the Data
 Data visualizations are an important part of the data science process.
