@@ -82,7 +82,7 @@ Now we have prepared our data by select features, assigning labels, cleaning and
 4. Select the `Train Model` module and click "Edit Columns" in the right side of the workspace
 5. Type `qualityBool` into the textbox to indicate the dataset label
 6. Run the Experiment
-</br>![splittraintestvid][splittraintestvid]
+</br>![splittraintestgif][splittraintestgif]
 
 ### Check Accuracy of model
 We now have a trained model in Azure Machine Learning Visual Interface. Lets visualize our results to see how it performed.
@@ -141,3 +141,4 @@ In this example we used all the attributes in the datasets as features. When bui
 [editmetalabel]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/editmetalabel.gif
 [runexp]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/runexp.gif
 [splittraintestvid]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/splittraintestvid.mp4
+[splittraintestgif]: https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/doc-imgs/splittraintestgif.gif
