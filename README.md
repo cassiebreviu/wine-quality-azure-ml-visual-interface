@@ -141,6 +141,9 @@ Once the model has an acceptable or "good enough" accuracy its time to deploy yo
 [MS Learn Intro to Data Science in Azure](https://docs.microsoft.com/en-us/learn/modules/intro-to-data-science-in-azure/1-introduction) </br>
 [Stanford Machine Learning Cheatsheet](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-supervised-learning)</br>
 
+## Want to see how to build this same model in python?
+[Here](https://github.com/cassieview/wine-quality-azure-ml-visual-interface/blob/master/notebooks/winequality-red.ipynb) is a link to the notebook included in this repo. If you want to see how to build this same model in python check it out! If you want to run it I recommend using the Notebook VMs in the Azure Machine Learning Workspace you created in this workshop.
+
 
 [create-resource]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/createresource.png "Create Resource"
 [select-workspace]: https://github.com/cassieview/IntroToAzureMLInterface/blob/master/doc-imgs/selectworkspace.PNG "Select Workspace"
