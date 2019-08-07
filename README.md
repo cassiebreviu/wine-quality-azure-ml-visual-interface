@@ -11,12 +11,12 @@
 6. ワークスペースに必要なリソースの作成には数分かかります。以下は作成されるリソースのリストになります。
 </br> ![workspaceresourcelist][workspaceresourcelist]
 
-### Launch Azure Machine Learning Visual Interface
-1. Navigate to your resource group that you created the workspace under
-2. Click the "Machine Learning Service Workspace" resource listed in the resource group
-3. In the left nav click on "Visual Interface"
-4. Then click "Launch visual interface"
-5. This will open a new tab for the Visual interface for Azure Machine Learning Service
+### Azure Machine Learning Visual Interfaceを起動
+1. "Machine Learning Service Workspace"を作成したリソースグループに移動します。
+2. リソースグループの"Machine Learning Service Workspace"をクリックします。
+3. 左側のリストから"Visual Interface"をクリックします。
+4. "Launch visual interface"をクリックします。
+5. これでビジュアルインターフェイスの操作画面が開きます。
 </br> ![launchamlvi][launchamlvi]
 
 ### We need data!
