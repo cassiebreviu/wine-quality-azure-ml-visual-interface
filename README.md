@@ -19,12 +19,12 @@
 5. これでビジュアルインターフェイスの操作画面が開きます。
 </br> ![launchamlvi][launchamlvi]
 
-### We need data!
-1. I used a dataset I found on Kaggle. Kaggle is an online community of data scientists. 
-2. Download the dataset from this repo because I have added an additional field (qualityBool) to the dataset.
-* [Wine Dataset from Repo](https://github.com/cassieview/IntroToAzureMLInterface/blob/master/dataset/winequality-red.csv)
-* [Kaggle Dataset](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009) 
-</br> _Relevant publication: P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009._
+### データの取得
+1. 今回はKaggleで公開されているデータを利用します。Kaggleはデータサイエンティストのオンラインコミュニティです。
+2. データにフィールド（qualityBool）を追加しているので、下記のリンク（GitHubリポジトリ）からデータをダウンロードして下さい。
+* [今回利用するワインのデータセット](https://github.com/cassieview/IntroToAzureMLInterface/blob/master/dataset/winequality-red.csv)
+* [元データ（Kaggle Dataset）](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009) 
+</br> _関連出版物: P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009._
 
 ### Getting data into Azure Machine Learning Visual Interface
 There are a few different ways to import data into Visual Interface. You can use the [Import Data Module](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/import-data) to import data from Azure Blob Storage or a Web URL via HTTP. In this tutorial we are going to upload our data into the "My Datasets"
