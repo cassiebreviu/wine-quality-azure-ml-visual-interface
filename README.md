@@ -35,12 +35,12 @@
 5. お好みで名前や説明などを変更してください。 (データが増えてくると説明があるとわかりやすいです。)
 </br>![uploaddataset][uploaddataset]
 
-### Create New Experiment
-1. Select "New" from the bottom left corner of the browser
-2. Select "Blank Experiment"
-3. In the top left hand of the workspace select the experiment name text "Experiment created on xx/xx/xxxx" and edit the name of your experinment.
-4. Go to "My Datasets" to find the data uploaded OR use the import module to import from the github csv link
-5. Drag data module onto workspace
+### 新しい実験の作成
+1. 左下隅の"New"をクリックします。
+2. "Blank Experiment"をクリックします。
+3. ワークスペース左上の"Experiment created on xx/xx/xxxx"を選択すると、名前を編集できます。わかりやすいようにあとから"ワイン判定"などとつけておくと良いかもしれません。
+4. "Saved Datasets"の"My Datasets"から先程アップロードしたでデータを見つけて下さい。
+5. 見つけたデータをドラックしてワークスペースに置きます。
 </br> ![createexpadddata][createexpadddata]
 
 ## Build the Model
