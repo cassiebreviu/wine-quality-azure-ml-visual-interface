@@ -26,6 +26,7 @@
 * [元データ（Kaggle Dataset）](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009) 
 </br> _関連出版物: P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009._
 
+<<<<<<< HEAD
 ### 入手したデータをAzure Machine Learning Visual Interfaceへインポート
 ビジュアルインターフェイスへデータをインポートする方法はいくつかあります。例えば[Import Data Module](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/import-data)を使うとAzure Blob StorageやWeb URLからHTTP経由でデータをインポートする事もできます。今回は"My Datasets"としてアップロードして利用します
 1. 左下隅の"New"をクリックします。
@@ -33,6 +34,15 @@
 3. "Upload from Local file"を選択します。
 4. 先程ダウンロードしたデータを選択します。
 5. お好みで名前や説明などを変更してください。 (データが増えてくると説明があるとわかりやすいです。)
+=======
+### Getting data into Azure Machine Learning Visual Interface
+There are a few different ways to import data into Visual Interface. You can use the [Import Data Module](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/import-data) to import data from Azure Blob Storage or a Web URL via HTTP. In this tutorial we are going to upload our data into the "My Datasets"
+1. Select "New" from the bottom left corner of the browser
+2. From the left nav bar Select "Datasets"
+3. Select "Upload from Local file"
+4. Navigate to downloaded data and select it to be uploaded
+5. Update the name and add a description (its helpful to have detailed description once there are lots of datasets uploaded)
+>>>>>>> TranslateToJapanese
 </br>![uploaddataset][uploaddataset]
 
 ### Create New Experiment
