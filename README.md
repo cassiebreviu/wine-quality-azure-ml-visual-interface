@@ -1,13 +1,14 @@
-# Is that wine good or bad? A beginner tutorial on how to build a binary classification machine learning model with no code using Azure Machine Learning Visual Interface
+# 【初心者向けチュートリアル】そのワイン、良いものですか？ Azure Machine Learning Visual Interfaceを利用してコーディング無しで機械学習モデルの作成する方法
 
 ## Azure Tools and Data
-### Create Resource in Azure
-1. Go to [Azure Portal](https://portal.azure.com/) and login or [Create an Account](https://azure.microsoft.com/en-us/free/)
-2. Click "Create resource"
-3. Select "AI + Machine Learning" then "Machine Learning service workspace"
-4. Fill in required fields and select "Review + Create" then select "Create"
+### Azure内にリソースを作成
+1. [Azure Portal](https://portal.azure.com/)にアクセスし、ログインをしてください。（アカウントのない人は[こちら](https://azure.microsoft.com/en-us/free/)でアカウントを作成してください）
+2. "Create a resource"をクリックしてください。
+3. "AI + Machine Learning"を選択すると、それに属するServiceが一覧で表示されるので "Machine Learning service workspace"をクリックします。
+4. 名前など必要な項目を埋めていきます。"Resources Group"は、その下部の"Create new"をクリックし、新規に作成することをおすすめします。（コンテンツ終了後、一括削除等が行いやすくなるため）
+5. 入力が完了したら"Review + Create"をクリックします。レビュー画面が表示されるので、"Create"をクリックします。
  </br> ![createamlresource][createamlresource]
-5. It will take a few minutes to create the resources needed for your workspace. Below is a list of all the resources that are created:
+6. ワークスペースに必要なリソースの作成には数分かかります。以下は作成されるリソースのリストになります。
 </br> ![workspaceresourcelist][workspaceresourcelist]
 
 ### Launch Azure Machine Learning Visual Interface
