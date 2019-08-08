@@ -73,22 +73,24 @@
 </br>![editdatavisual][editdatavisual]
 
 ### Split the Data
-When you train the model the standard practice is to split your data to train and score your model. 70% trains the model and 30% scores the model to see how well the training went. Understand that true model accuracy should be tested on unseen data outside of this 30% score.  This score gives you an idea of how the model is performing but is not law and sometimes misleading.
+モデルをトレーニングする標準的な方法は、入力したデータを行で分割してモデルの作成（トレーニング）に利用するものと作成したモデルの評価に利用するものに分けます。データ件数にもよりますが、今回は70%をトレーニング用に利用し、残った30%を評価ように利用します。
+なぜトレーニング用と評価用でデータを分けるかといいますと、もしモデル作成で利用したデータを、モデルの評価に利用した場合、そのモデルは入力されたデータの結果を知っていることなり、正答率が不当に上がってしまいます。こういったことを避けるため、トレーニング用と評価用でデータを分けます。
 
-1. In the left nav type "Split Data" in the textbox at the top
-2. Drag and drop the module onto the workspace and connect it to the existing modules
-3. Select the "Split Data" module and change the split from `0.5` to `0.7`
+1. 左上部のテキストボックスに"Split Data"と入力します。
+2. "Split Data"モジュールが表示されるので、ドラッグアンドドロップでワークスペースに配置します。
+3. "Edit Meta"と"Split Data"を今までと同じように接続します。
+4. "Split Data"を選択し、左側の"Fraction of rows in the first output dataset"を`0.5` から `0.7`に変更します。
 
-### Train, Score and Evaluate the Model
-Now we have prepared our data by select features, assigning labels, cleaning and preprocessing. Its time to train the model.
+### モデルのトレーニング、スコアリング、評価
+ここまででデータの準備ができました。ここからはモデルをトレーニングするように構築していきます。
 
-1. There are many different algorithms to choose from when building a model. Many professional data scientists try a few different ones to see which provides a better accuracy score. [Here is a cheatsheet for choosing an algorithm](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet). For this model we are going to use a `Two-Class Logistic Regression`.
-2. Add the following modules to the workspace: `Two-Class Logistic Regression`, `Train Model`, `Score Model`, `Evaluate Model`
-</br> _hint: if you have questions about modules or concepts, click on the module and in the lower right corner of the workspace you will see a "more help" link. Click the link to get information about how the module works and help with data science terms_
-3. Connect them together as displayed below
-4. Select the `Train Model` module and click "Edit Columns" in the right side of the workspace
-5. Type `qualityBool` into the textbox to indicate the dataset label
-6. Run the Experiment
+1. モデルを構築するとき、どのアルゴリズムでモデルを作成するかを選択する必要があります。一般的には、いろんなアルゴリズムを試して、どれが良いかを決めたり、 [チートシート](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet)を利用して決定したりします。 今回のモデルでは`Two-Class Logistic Regression`を利用します。
+2. ワークスペースに以下のモジュールを追加します。これらはテキストボックスから検索してもいいですし、左側の"Machine Learning"の配下にすべて揃っているので、そこから探して持ってきてもいいです。 `Two-Class Logistic Regression`, `Train Model`, `Score Model`, `Evaluate Model`
+</br> _ヒント: モジュールについて質問や疑問がある場合、そのモジュールをクリックし、右下に表示される"more help"をクリックするとそのモジュールに対する詳しい説明を読むことができます。_
+3. 下の画像のようにモジュールを接続します。
+4. `Train Model`をクリックし、右側の"Edit Columns"をクリックします。
+5. テキストボックスに`qualityBool`と入力します。ここで選択した対象がこのモデルで予測する対象となります。
+6. 中央下部の"Run"をクリックします。
 </br>![splittraintestgif][splittraintestgif]
 
 ### Check Accuracy of Model
