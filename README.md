@@ -39,37 +39,37 @@
 1. 左下隅の"New"をクリックします。
 2. "Blank Experiment"をクリックします。
 3. ワークスペース左上の"Experiment created on xx/xx/xxxx"を選択すると、名前を編集できます。わかりやすいようにあとから"ワイン判定"などとつけておくと良いかもしれません。
-4. "Saved Datasets"の"My Datasets"から先程アップロードしたでデータを見つけて下さい。
+4. "Saved Datasets" > "My Datasets"から先程アップロードしたでデータを見つけて下さい。
 5. 見つけたデータをドラックしてワークスペースに置きます。
 </br> ![createexpadddata][createexpadddata]
 
-## Build the Model
-### Assign the label attribute to the dataset
-We now have created an experiment and have imported the data. Lets build the model. In the left hand nav there are different modules that you can drag and drop onto the workspace to build the model.
-1. Under Data Transformation > Manipulation drag and drop the "Edit Metadata" module onto the workspace
-2. Connect the modules together be clicking and dragging on the circles like a visio diagram.
-3. Click on the "Edit Metadata" and select "Edit Columns" from the right hand side of the workspace
-4. Leave the default configuration and type `qualityBool` into the textbox and click "Ok"
+## モデルの構築
+### データセットにラベル属性を割り当て
+ここまでで、実験が作成されデータがインポートされました。ここからはモデルの構築をしていきましょう。左側にはモデルを構築するための様々なモジュールが準備されています。これらのモジュールをドラッグアンドドロップで配置していきます。
+1. "Transformation" > "Manipulation"から"Edit Metadata"をドラッグアンドドロップでワークスペースに配置します。
+2. 先程配置したデータモジュールと"Edit Metadata"を接続します。接続するにはデータモジュールの下部についている丸をクリックし、ドラックすると紐がでるので、そのまま"Edit Metadata"の上の丸までドラックします。
+3. 配置した"Edit Metadata"をクリックすると、ワークスペース右側にPropertiesが表示されます。そのなかの"Edit Columns"をクリックします。
+4. テキストボックスに `qualityBool` と入力し、OKをクリックします。
+5. "Data type"を"Unchanged"から"Boolean"に変更すれば完了です。
 </br>![editmetalabel][editmetalabel]
 
-### The First Run of the Experiment
-1. Select "Run" from the button of the workspace
-2. Select "Create new" to create a new compute target
-3. Enter a name for the new compute target
-4. Select "Run"
+### Runをしてみる
+1. ワークスペース中央下部にある"Run"をクリックします。
+2. "Create new"をクリックしてトレーニングに利用するコンピューティングリソースを作成します。
+3. コンピューティングリソースの名前を入力します。
+4. "Run"をクリックします。
 </br>![runexp][runexp]
 
-### Select Feature Columns
-1. Under Data Transformation > Manipulation drag and drop the "Select Columns in dataset" module onto the workspace
-2. Connect the modules together be clicking and dragging on the circles like a Visio diagram.
-3. Click on the "Select Columns in dataset" and select "Edit Columns" from the right hand side of the workspace
-4. Select exclude column `quality`
-5. Select the arrow to move the highlight feature into the "Selected Columns" box and click "Ok".
+### 利用するカラム（列）の選択
+1. "Transformation" > "Manipulation"から"Select Columns in dataset"をドラッグアンドドロップでワークスペースに配置します。
+2. "Edit Metadata"と"Select Columns in dataset"を接続します。"Edit Metadata"の下部についている丸をクリックし、そのまま"Select Columns in dataset"の上の丸までドラックします。
+3. "Select Columns in dataset"をクリックし、ワークスペース右側に表示されたProperties内の"Edit Columns"をクリックします。
+4. `quality`は利用しないため、除外します。左側にある"With Rules"をクリックし、 "Begin Columns"を"All Columns"にし、"Include"となっていた項目を"Exclude"にし、テキストボックスに`quality`と入力し、OKをクリックします
 
-### Visualize the Data
-Data visualizations are an important part of the data science process.
-1. To visualize the data, right click on the `Edit Metadata` module and select "Visualize"
-2. Select each column to see the data visualized on the right side.
+### データの視覚化
+データの視覚化はデータサイエンティストをする上で重要なプロセスです。
+1. データを視覚化するには、`Edit Metadata`の下部の丸を右クリックし、"Visualize"を選択します。
+2. 各列をクリックすると、右側に視覚化されたデータや統計情報が表示されます。
 </br>![editdatavisual][editdatavisual]
 
 ### Split the Data
