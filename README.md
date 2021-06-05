@@ -2,7 +2,7 @@
 
 ## Azure Tools and Data
 ### Create Resource in Azure
-1. Go to [Azure Portal](https://portal.azure.com/) and login or [Create an Account](https://azure.microsoft.com/en-us/free/)
+1. Go to [Azure Portal](https://portal.azure.com/?WT.mc_id=aiml-0000-cassieb) and login or [Create an Account](https://azure.microsoft.com/free/?WT.mc_id=aiml-0000-cassieb)
 2. Click "Create resource"
 3. Select "AI + Machine Learning" then "Machine Learning service workspace"
 4. Fill in required fields and select "Review + Create" then select "Create"
@@ -26,7 +26,7 @@
 </br> _Relevant publication: P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009._
 
 ### Getting data into Azure Machine Learning Visual Interface
-There are a few different ways to import data into Visual Interface. You can use the [Import Data Module](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/import-data) to import data from Azure Blob Storage or a Web URL via HTTP. In this tutorial we are going to upload our data into the "My Datasets"
+There are a few different ways to import data into Visual Interface. You can use the [Import Data Module](https://docs.microsoft.com/azure/machine-learning/algorithm-module-reference/import-data?WT.mc_id=aiml-0000-cassieb) to import data from Azure Blob Storage or a Web URL via HTTP. In this tutorial we are going to upload our data into the "My Datasets"
 1. Select "New" from the bottom left corner of the browser
 2. From the left nav bar Select "Datasets"
 3. Select "Upload from Local file"
@@ -81,7 +81,7 @@ When you train the model the standard practice is to split your data to train an
 ### Train, Score and Evaluate the Model
 Now we have prepared our data by select features, assigning labels, cleaning and preprocessing. Its time to train the model.
 
-1. There are many different algorithms to choose from when building a model. Many professional data scientists try a few different ones to see which provides a better accuracy score. [Here is a cheatsheet for choosing an algorithm](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet). For this model we are going to use a `Two-Class Logistic Regression`.
+1. There are many different algorithms to choose from when building a model. Many professional data scientists try a few different ones to see which provides a better accuracy score. [Here is a cheatsheet for choosing an algorithm](https://docs.microsoft.com/azure/machine-learning/studio/algorithm-cheat-sheet?WT.mc_id=aiml-0000-cassieb). For this model we are going to use a `Two-Class Logistic Regression`.
 2. Add the following modules to the workspace: `Two-Class Logistic Regression`, `Train Model`, `Score Model`, `Evaluate Model`
 </br> _hint: if you have questions about modules or concepts, click on the module and in the lower right corner of the workspace you will see a "more help" link. Click the link to get information about how the module works and help with data science terms_
 3. Connect them together as displayed below
@@ -95,7 +95,7 @@ We now have a trained model in Azure Machine Learning Visual Interface. Lets vis
 
 1. Right click on the button circle of the `Evaluate Model` module.
 2. Select "Visualize" from the menu that popped up
-3. [How to understand metrics for classification models](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/evaluate-model#bkmk_classification)
+3. [How to understand metrics for classification models](https://docs.microsoft.com/azure/machine-learning/algorithm-module-reference/evaluate-model?WT.mc_id=aiml-0000-cassieb#bkmk_classification)
 4. Our accuracy is ok, but we can probably do better.
 
 ### Different ways to Improve Accuracy
@@ -136,9 +136,9 @@ Once the model has an acceptable or "good enough" accuracy its time to deploy yo
 * If data is very imbalanced meaning you have lots of one label and little of another - this can also create overfitting and models that look like they are performing really well when they are actually not good models. There are different techniques to work with imbalanced data. Such as: Over Sampling, Creating fake data, collection more data, weighted data, dropout and others.
 
 ## Helpful Links
-[Machine Learning Visual Interface Overview Doc](https://docs.microsoft.com/en-us/azure/machine-learning/service/ui-concept-visual-interface) </br>
-[Flavors of Machine Learning Doc](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-choice#flavors-of-machine-learning) </br>
-[MS Learn Intro to Data Science in Azure](https://docs.microsoft.com/en-us/learn/modules/intro-to-data-science-in-azure/1-introduction) </br>
+[Machine Learning Visual Interface Overview Doc](https://docs.microsoft.com/azure/machine-learning/service/ui-concept-visual-interface?WT.mc_id=aiml-0000-cassieb) </br>
+[Flavors of Machine Learning Doc](https://docs.microsoft.com/azure/machine-learning/studio/algorithm-choice?WT.mc_id=aiml-0000-cassieb#flavors-of-machine-learning) </br>
+[MS Learn Intro to Data Science in Azure](https://docs.microsoft.com/learn/modules/intro-to-data-science-in-azure/1-introduction?WT.mc_id=aiml-0000-cassieb) </br>
 [Stanford Machine Learning Cheatsheet](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-supervised-learning)</br>
 
 ## Want to see how to build this same model in python?
